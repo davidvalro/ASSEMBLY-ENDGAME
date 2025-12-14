@@ -61,6 +61,10 @@ Para clonar y ejecutar el proyecto en tu máquina:
 
 ---
 
-### 👨‍💻 Nota del Desarrollador (Reflexión Profesional)
+### 👨‍💻 Nota del Desarrollador
 
-Este proyecto representa un salto arquitectónico. Muestra la capacidad de integrar soluciones de alto rendimiento (WASM) en un entorno moderno de React/TypeScript. La clave no es solo la velocidad, sino la **demostración conceptual** de dónde y por qué usar WASM: delegar la lógica de juego pesada o con muchos cálculos a un módulo pre-compilado  mientras se mantiene la flexibilidad y el desarrollo rápido de la UI con React. Además, el uso de TypeScript en todo el frontend garantiza un desarrollo más seguro, mantenible y escalable.
+Este proyecto fue concebido como un estudio de caso en **arquitectura de aplicaciones web modernas**. Su principal objetivo es demostrar la integración efectiva de una capa de lógica de alto rendimiento (simulando **WebAssembly - WASM**) dentro de un *stack* React/TypeScript.
+
+La justificación de este enfoque se centra en la **separación de preocupaciones**: se delegan los procesos computacionalmente intensivos a un módulo optimizado (WASM) mientras que React se encarga de la flexibilidad, el manejo de estados de la UI y el desarrollo rápido de la interfaz.
+
+El uso de **TypeScript** en el *frontend* complementa esta arquitectura, garantizando un código más robusto, mantenible y escalable gracias al **tipado estático** y a la definición clara de interfaces.
